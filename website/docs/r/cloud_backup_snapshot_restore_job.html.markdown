@@ -94,7 +94,7 @@ resource "mongodbatlas_cluster" "cluster_test" {
   project_id   = mongodbatlas_project.project_test.id
   name         = var.cluster_name
 
-  # Provider Settings "block"
+  //Provider Settings "block"
   provider_name               = "AWS"
   provider_region_name        = "US_EAST_1"
   provider_instance_size_name = "M10"
