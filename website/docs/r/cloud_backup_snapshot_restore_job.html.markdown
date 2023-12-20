@@ -89,7 +89,7 @@ description: |-
 ```
 
 ### Example of a point in time restore
-```
+```terraform
 resource "mongodbatlas_cluster" "cluster_test" {
   project_id   = mongodbatlas_project.project_test.id
   name         = var.cluster_name
